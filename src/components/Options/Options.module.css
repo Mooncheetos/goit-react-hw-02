@@ -12,7 +12,7 @@
     width: 110px;
     border: none;
     border-radius: 12px;
-    background-color: #5d5a5a;
+    background-color: #5f3f3f;
     color: #ffffff;
     font-size: 18px;
     padding: 8px;
@@ -21,5 +21,5 @@
 
 .optionsButton:hover,
 .optionsButton:focus {
-    background-color: #4e4a4a;
+    background-color: #3b2828;
 }
