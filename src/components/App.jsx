@@ -22,7 +22,7 @@ const App = () => {
   };
 
   const totalFeedback = feedback.good + feedback.neutral + feedback.bad;
-  const posFeedback = Math.round(((feedback.good + feedback.bad) / totalFeedback) * 100);
+  const posFeedback = Math.round(((feedback.good + feedback.neutral) / totalFeedback) * 100);
 
   useEffect(() => {
     localStorage.setItem("feedbackValue", JSON.stringify(feedback));
